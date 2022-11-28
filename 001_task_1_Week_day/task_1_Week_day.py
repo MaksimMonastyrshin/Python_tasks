@@ -5,8 +5,6 @@
 # - 7 -> да
 # - 1 -> нет
 
-os.system('CLS')
-
 input_number = input('Введите число, обозначающее день недели: ')
 if input_number.isdigit():
     num_day = int(input_number)
